@@ -1,0 +1,18 @@
+.kjWKTd {
+    filter: blur(3px) grayscale(1);
+}
+.Zc1Emd {
+    filter: blur(3px) grayscale(1);
+}
+.jXMTWd {
+    filter: blur(3px) grayscale(1);
+}
+.kjWKTd:hover {
+    filter: blur(0px) grayscale(0);
+}
+.Zc1Emd:hover {
+    filter: blur(0px) grayscale(0);
+}
+.jXMTWd:hover {
+    filter: blur(0px) grayscale(0);
+}

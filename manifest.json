@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Privacy-Film",
+    "description": "V0",
+    "version": "1.0",
+    "action": {
+        "default_title": "Privacy-Film",
+        "default_popup": "scripts/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mail.google.com/chat/u/*",
+                "https://chat.google.com/u/0/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "all_frames": true
+        }
+    ]
+}
