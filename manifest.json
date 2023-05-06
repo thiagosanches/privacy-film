@@ -7,6 +7,15 @@
         "default_title": "Privacy-Film",
         "default_popup": "scripts/popup.html"
     },
+    "host_permissions": [
+        "https://mail.google.com/chat/u/*",
+        "https://chat.google.com/u/0/*"
+    ],
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -14,7 +23,7 @@
                 "https://chat.google.com/u/0/*"
             ],
             "css": [
-                "style.css"
+                "fake.css"
             ],
             "all_frames": true
         }
