@@ -11,21 +11,13 @@
         "https://mail.google.com/chat/u/*",
         "https://chat.google.com/u/0/*"
     ],
+    "background": { 
+        "service_worker": "background.js"
+    },
     "permissions": [
         "scripting",
         "tabs",
-        "activeTab"
-    ],
-    "content_scripts": [
-        {
-            "matches": [
-                "https://mail.google.com/chat/u/*",
-                "https://chat.google.com/u/0/*"
-            ],
-            "css": [
-                "fake.css"
-            ],
-            "all_frames": true
-        }
+        "activeTab",
+        "storage"
     ]
 }
